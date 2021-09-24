@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUN WITH TRIANGLE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-developer">FUN WITH TRIANGLE</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">Is  This Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href=""> Play Quiz?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="">Hypotenuse??</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="">Area of triangle!</a>
+        </li>
+      </ul>
+    </nav>
+    <center>
+        <div class="container">
+            <h1>Area of triangle!</h1>
+            <label for="angle1">Angle 1</label>
+            <input
+              type="number"
+              class="angle-input"
+              min="0"
+              oninput="validity.valid||(value='');"
+            />
+            <label for="angle2">Angle 2</label>
+            <input
+              type="number"
+              class="angle-input"
+              min="0"
+              oninput="validity.valid||(value='');"
+            />
+            <label for="angle3">Angle 3</label>
+            <input
+              type="number"
+              class="angle-input"
+              min="0"
+              oninput="validity.valid||(value='');"
+            />
+            <button id="submit">Is  This Triangle?</button>
+            <p id="result"></p>
+          </div>
+    </center>
+    
+    
+    <footer class="footer">
+      <div class="footer-header">SOCIAL MEDIA PRESENCE</div>
+      <ul class="social-links list-item-inline">
+          <li class="list-item-inline"><a class="link" href="https://www.instagram.com/i_sachindiku/">INSTAGRAM</a></li>
+          <li class="list-item-inline"><a class="link" href="https://www.naukri.com/mnjuser/profile?id=&orgn=homepage">NAUKRI.COM</a></li>
+          <li class="list-item-inline"><a class="link" href="https://github.com/isachin-dot/sachin-diku">GITHUB</a></li>
+          <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/sachin-kumar-557aa1149/">LINKEDIN</a></li>
+      </ul>
+  </footer>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
