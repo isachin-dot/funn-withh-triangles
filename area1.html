@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun with triangle</title>
+    <link rel="stylesheet" href="/area1.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-developer">FUN WITH TRIANGLE</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">Is Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="/area1.html"
+            >Area of triangle</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Calculate Area of a triangle</h1>
+      <label
+        >Enter first side of a triangle =<input
+          type="number"
+          class="side-input"
+          min="0"
+          oninput="validity.valid||(value='');"
+        />
+      </label>
+      <label
+        >Enter second side of a triangle =
+        <input
+          type="number"
+          class="side-input"
+          min="0"
+          oninput="validity.valid||(value='');"
+      /></label>
+      <label
+        >Enter third side of a triangle =<input
+          type="number"
+          class="side-input"
+          min="0"
+          oninput="validity.valid||(value='');"
+      /></label>
+      <button id="submit">Area of triangle</button>
+    </div>
+    <div class="container">
+      <p id="result"></p>
+    </div>
+    <div class="container">
+      <p>
+        Consider the triangle ABC with side lengths a, b, and c. To find the
+        area of the triangle we use Heron's formula:
+      </p>
+      <p><code>Area = √ s ( s − a ) ( s − b ) ( s − c )</code></p>
+      <p>
+        Note that (a + b + c) is the perimeter of the triangle. Therefore, 's'
+        is the semi-perimeter which is: (a + b + c)/2
+      </p>
+    </div>
+    <footer class="footer">
+      <div class="footer-header">SOCIAL MEDIA PRESENCE</div>
+      <ul class="social-links list-item-inline">
+          <li class="list-item-inline"><a class="link" href="https://www.instagram.com/i_sachindiku/">INSTAGRAM</a></li>
+          <li class="list-item-inline"><a class="link" href="https://www.naukri.com/mnjuser/profile?id=&orgn=homepage">NAUKRI.COM</a></li>
+          <li class="list-item-inline"><a class="link" href="https://github.com/isachin-dot/sachin-diku">GITHUB</a></li>
+          <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/sachin-kumar-557aa1149/">LINKEDIN</a></li>
+      </ul>
+  </footer>
+
+    <script src="area.js"></script>
+  </body>
+</html>
