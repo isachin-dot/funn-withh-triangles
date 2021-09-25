@@ -27,47 +27,52 @@
         </li>
       </ul>
     </nav>
-    <div class="container">
-      <h1>Calculate Area of a triangle</h1>
-      <label
-        >Enter first side of a triangle =<input
-          type="number"
-          class="side-input"
-          min="0"
-          oninput="validity.valid||(value='');"
-        />
-      </label>
-      <label
-        >Enter second side of a triangle =
-        <input
-          type="number"
-          class="side-input"
-          min="0"
-          oninput="validity.valid||(value='');"
-      /></label>
-      <label
-        >Enter third side of a triangle =<input
-          type="number"
-          class="side-input"
-          min="0"
-          oninput="validity.valid||(value='');"
-      /></label>
-      <button id="submit">Area of triangle</button>
-    </div>
-    <div class="container">
-      <p id="result"></p>
-    </div>
-    <div class="container">
-      <p>
-        Consider the triangle ABC with side lengths a, b, and c. To find the
-        area of the triangle we use Heron's formula:
-      </p>
-      <p><code>Area = √ s ( s − a ) ( s − b ) ( s − c )</code></p>
-      <p>
-        Note that (a + b + c) is the perimeter of the triangle. Therefore, 's'
-        is the semi-perimeter which is: (a + b + c)/2
-      </p>
-    </div>
+    <hr>
+    <center>
+        <div class="container">
+            <h1>Calculate Area of a triangle</h1>
+            <label
+              >Enter first side of a triangle =<input
+                type="number"
+                class="side-input"
+                min="0"
+                oninput="validity.valid||(value='');"
+              />
+            </label>
+            <label
+              >Enter second side of a triangle =
+              <input
+                type="number"
+                class="side-input"
+                min="0"
+                oninput="validity.valid||(value='');"
+            /></label>
+            <label
+              >Enter third side of a triangle =<input
+                type="number"
+                class="side-input"
+                min="0"
+                oninput="validity.valid||(value='');"
+            /></label>
+            <button id="submit">Area of triangle</button>
+          </div>
+          <div class="container">
+            <p id="result"></p>
+          </div>
+          <div class="container">
+            <p>
+              Consider the triangle ABC with side lengths a, b, and c. To find the
+              area of the triangle we use Heron's formula:
+            </p>
+            <p><code>Area = √ s ( s − a ) ( s − b ) ( s − c )</code></p>
+            <p>
+              Note that (a + b + c) is the perimeter of the triangle. Therefore, 's'
+              is the semi-perimeter which is: (a + b + c)/2
+            </p>
+          </div>
+    </center>
+    
+    <hr>
     <footer class="footer">
       <div class="footer-header">SOCIAL MEDIA PRESENCE</div>
       <ul class="social-links list-item-inline">
